@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3df49d78-3302-456f-be83-95ce6ce46925" name="Default" comment="runnables">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab2/src/runnables/K.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab2/src/runnables/P.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab2/src/runnables/S.java" />
+    <list default="true" id="3df49d78-3302-456f-be83-95ce6ce46925" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TW.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="3df49d78-3302-456f-be83-95ce6ce46925" time="1382271416345" ignored="false" />
+    <file path="/Dummy.txt" changelist="3df49d78-3302-456f-be83-95ce6ce46925" time="1382271434818" ignored="false" />
     <file path="/Buffer.java" changelist="3df49d78-3302-456f-be83-95ce6ce46925" time="1382269654178" ignored="false" />
     <file path="/fragment.java" changelist="3df49d78-3302-456f-be83-95ce6ce46925" time="1382269304875" ignored="false" />
     <file path="/P.java" changelist="3df49d78-3302-456f-be83-95ce6ce46925" time="1382270401464" ignored="false" />
@@ -461,7 +458,11 @@
       <created>1382269746852</created>
       <updated>1382269746852</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="runnables">
+      <created>1382271440621</created>
+      <updated>1382271440621</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
