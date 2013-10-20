@@ -27,7 +27,8 @@ public class MyInteger {
 		public IncThread(MyInteger integer){
 			this.integer=integer;
 		}
-		
+
+
 		public void run(){
 			integer.inc();
 		}
