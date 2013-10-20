@@ -14,33 +14,38 @@ public class Buffer {
     }
 
     public Integer getValue() throws InterruptedException {
-        try {
-            semaphore.down();
+        Integer toReturn = null;
+        semaphore.down();
             if(!this.isEmpty()){
                 inserted--;
-                return val[inserted];
+                toReturn = val[inserted];
             }
-            else
-                return null;
-        } finally {
-            semaphore.up();
-        }
+        semaphore.up();
+        return toReturn;
+
     }
 
-    public void insertValue(int v) throws InterruptedException {
+    public boolean insertValue(int v) throws InterruptedException {
+        boolean toReturn=false;
         semaphore.down();
             if(!this.isFull()){
                 val[inserted]=v;
                 inserted++;
+                toReturn=true;
             }
         semaphore.up();
+        return toReturn;
     }
 
-    public void consumeAll() throws InterruptedException {
+    public int[] consumeAll() throws InterruptedException {
+        int[] toReturn=null;
         semaphore.down();
-            if(this.isFull())
+            if(this.isFull()){
                 inserted=0;
+                toReturn = val.clone();
+            }
         semaphore.up();
+        return toReturn;
     }
 
     private boolean isEmpty() {

@@ -3,11 +3,11 @@ package runnables;
 import buffers.Buffer;
 
 public class P implements Runnable {
-    private Buffer b;
+    private Buffer b1;
     private int indx;
 
-    public P(Buffer b, int indx) {
-        this.b = b;
+    public P(Buffer b1, int indx) {
+        this.b1 = b1;
         this.indx = indx;
     }
 
@@ -16,7 +16,9 @@ public class P implements Runnable {
     public void run() {
         try {
             while (true)
-                b.insertValue(indx);
+                if(b1.insertValue(indx))
+                    System.out.println(indx + " inserted to b1");
+
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
