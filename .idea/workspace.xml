@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3df49d78-3302-456f-be83-95ce6ce46925" name="Default" comment="all with println logging&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab2/src/main/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab2/src/buffers/Buffer.java" afterPath="$PROJECT_DIR$/lab2/src/buffers/Buffer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab2/src/runnables/K.java" afterPath="$PROJECT_DIR$/lab2/src/runnables/K.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab2/src/runnables/P.java" afterPath="$PROJECT_DIR$/lab2/src/runnables/P.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab2/src/runnables/S.java" afterPath="$PROJECT_DIR$/lab2/src/runnables/S.java" />
+    <list default="true" id="3df49d78-3302-456f-be83-95ce6ce46925" name="Default" comment="producer-consumer with 1 value buffer">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab3/src/producerconsumer/buffersize1/Buffer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab3/src/producerconsumer/buffersizen/Buffer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab3/src/producerconsumer/buffersize1/K.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab3/src/producerconsumer/buffersize1/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab3/src/producerconsumer/buffersize1/P.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab3/lab3.iml" />
+      <change type="DELETED" beforePath="E:\kodzenie\TW\lab3.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TW.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="3df49d78-3302-456f-be83-95ce6ce46925" time="1382302613112" ignored="false" />
+    <file path="/Dummy.txt" changelist="3df49d78-3302-456f-be83-95ce6ce46925" time="1384212851882" ignored="false" />
     <file path="/Buffer.java" changelist="3df49d78-3302-456f-be83-95ce6ce46925" time="1382301754788" ignored="false" />
     <file path="/fragment.java" changelist="3df49d78-3302-456f-be83-95ce6ce46925" time="1382269304875" ignored="false" />
     <file path="/P.java" changelist="3df49d78-3302-456f-be83-95ce6ce46925" time="1382302408180" ignored="false" />
@@ -36,6 +39,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -72,7 +76,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -82,46 +85,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="P.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab2/src/runnables/P.java">
+      <file leaf-file-name="Buffer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab3/src/producerconsumer/buffersizen/Buffer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="25" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0">
+            <state line="25" column="5" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="K.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab2/src/runnables/K.java">
+        <entry file="file://$PROJECT_DIR$/lab3/src/producerconsumer/buffersize1/K.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="23" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
+            <state line="14" column="12" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="S.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab2/src/runnables/S.java">
+      <file leaf-file-name="P.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab3/src/producerconsumer/buffersize1/P.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="24" selection-start="975" selection-end="975" vertical-scroll-proportion="0.0">
+            <state line="17" column="61" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab2/src/main/Main.java">
+      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lab3/src/producerconsumer/buffersize1/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="23" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
+            <state line="8" column="30" selection-start="243" selection-end="243" vertical-scroll-proportion="0.2781186">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Buffer.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lab2/src/buffers/Buffer.java">
+      <file leaf-file-name="Buffer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab3/src/producerconsumer/buffersize1/Buffer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="29" selection-start="839" selection-end="839" vertical-scroll-proportion="0.5562372">
+            <state line="3" column="0" selection-start="61" selection-end="737" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -145,7 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lab1/src/Main.java" />
         <option value="$PROJECT_DIR$/lab1/src/MyInteger.java" />
         <option value="$PROJECT_DIR$/lab2/src/semaphores/BinarySemaphore.java" />
         <option value="$PROJECT_DIR$/lab2/src/main/Main.java" />
@@ -153,6 +155,15 @@
         <option value="$PROJECT_DIR$/lab2/src/runnables/K.java" />
         <option value="$PROJECT_DIR$/lab2/src/runnables/S.java" />
         <option value="$PROJECT_DIR$/lab2/src/buffers/Buffer.java" />
+        <option value="$PROJECT_DIR$/lab3/src/producerconsumer/Buffer.java" />
+        <option value="$PROJECT_DIR$/lab3/src/producerconsumer/K.java" />
+        <option value="$PROJECT_DIR$/lab3/src/producerconsumer/P.java" />
+        <option value="$PROJECT_DIR$/lab3/src/producerconsumer/Main.java" />
+        <option value="$PROJECT_DIR$/lab3/src/producerconsumer/buffersize1/Buffer.java" />
+        <option value="$PROJECT_DIR$/lab3/src/producerconsumer/buffersizen/Buffer.java" />
+        <option value="$PROJECT_DIR$/lab3/src/producerconsumer/buffersize1/K.java" />
+        <option value="$PROJECT_DIR$/lab3/src/producerconsumer/buffersize1/P.java" />
+        <option value="$PROJECT_DIR$/lab3/src/producerconsumer/buffersize1/Main.java" />
       </list>
     </option>
   </component>
@@ -212,6 +223,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -240,7 +253,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lab2" />
+              <option name="myItemId" value="lab3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -254,7 +267,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lab2" />
+              <option name="myItemId" value="lab3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -262,7 +275,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="semaphores" />
+              <option name="myItemId" value="producerconsumer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="buffersizen" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -276,7 +293,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lab2" />
+              <option name="myItemId" value="lab3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -284,58 +301,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="runnables" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TW" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TW" />
+              <option name="myItemId" value="producerconsumer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lab2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TW" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TW" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lab2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="buffers" />
+              <option name="myItemId" value="buffersize1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -352,9 +327,9 @@
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -401,19 +376,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -440,6 +402,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -531,7 +506,11 @@
       <created>1382271479459</created>
       <updated>1382271479459</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="all with println logging&#10;">
+      <created>1382302694521</created>
+      <updated>1382302694521</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -628,7 +607,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="all with println logging&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="producer-consumer with 1 value buffer" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -647,6 +626,7 @@
     <MESSAGE value="runnables" />
     <MESSAGE value="iml" />
     <MESSAGE value="all with println logging&#10;" />
+    <MESSAGE value="producer-consumer with 1 value buffer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -656,31 +636,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/.name">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="5" selection-start="4" selection-end="5" vertical-scroll-proportion="-0.0" />
@@ -720,28 +675,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lab2/src/runnables/P.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="25" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0">
+        <state line="19" column="25" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lab2/src/runnables/K.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="23" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
+        <state line="5" column="21" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lab2/src/runnables/S.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="24" selection-start="975" selection-end="975" vertical-scroll-proportion="0.0">
+        <state line="35" column="24" selection-start="945" selection-end="945" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lab2/src/buffers/Buffer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="29" selection-start="839" selection-end="839" vertical-scroll-proportion="0.5562372">
+        <state line="37" column="40" selection-start="894" selection-end="894" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab3/src/producerconsumer/buffersize1/Buffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="61" selection-end="737" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab3/src/producerconsumer/buffersizen/Buffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="5" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab3/src/producerconsumer/buffersize1/K.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="12" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab3/src/producerconsumer/buffersize1/P.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="61" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab3/src/producerconsumer/buffersize1/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="30" selection-start="243" selection-end="243" vertical-scroll-proportion="0.2781186">
           <folding />
         </state>
       </provider>
