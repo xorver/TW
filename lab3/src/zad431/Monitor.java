@@ -1,5 +1,7 @@
 package zad431;
 
+import common.Resource;
+
 import java.util.LinkedList;
 import java.util.Queue;
 

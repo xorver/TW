@@ -1,5 +1,7 @@
 package zad431;
 
+import common.Resource;
+
 public class RunnableA implements Runnable {
     Monitor monitor;
 

@@ -1,4 +1,4 @@
-package zad431;
+package common;
 
 public class Resource {
 
