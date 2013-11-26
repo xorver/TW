@@ -1,30 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3df49d78-3302-456f-be83-95ce6ce46925" name="Default" comment="producer-consumer with 1 value buffer">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab3/src/producerconsumer/buffersize1/Buffer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab3/src/producerconsumer/buffersizen/Buffer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab3/src/producerconsumer/buffersize1/K.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab3/src/producerconsumer/buffersize1/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab3/src/producerconsumer/buffersize1/P.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab3/lab3.iml" />
-      <change type="DELETED" beforePath="E:\kodzenie\TW\lab3.java" afterPath="" />
+    <list default="true" id="3df49d78-3302-456f-be83-95ce6ce46925" name="Default" comment="new module lab4&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab5/src/zad432/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab5/src/zad432/Monitor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab5/src/zad432/P.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab5/src/zad432/Properties.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab5/lab5.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TW.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="3df49d78-3302-456f-be83-95ce6ce46925" time="1384212851882" ignored="false" />
-    <file path="/Buffer.java" changelist="3df49d78-3302-456f-be83-95ce6ce46925" time="1382301754788" ignored="false" />
-    <file path="/fragment.java" changelist="3df49d78-3302-456f-be83-95ce6ce46925" time="1382269304875" ignored="false" />
-    <file path="/P.java" changelist="3df49d78-3302-456f-be83-95ce6ce46925" time="1382302408180" ignored="false" />
+    <file path="/Dummy.txt" changelist="3df49d78-3302-456f-be83-95ce6ce46925" time="1385464402694" ignored="false" />
+    <file path="/Buffer.java" changelist="3df49d78-3302-456f-be83-95ce6ce46925" time="1384376036989" ignored="false" />
+    <file path="/fragment.java" changelist="3df49d78-3302-456f-be83-95ce6ce46925" time="1384468685824" ignored="false" />
+    <file path="/P.java" changelist="3df49d78-3302-456f-be83-95ce6ce46925" time="1385467949538" ignored="false" />
     <file path="/S.java" changelist="3df49d78-3302-456f-be83-95ce6ce46925" time="1382302208231" ignored="false" />
-    <file path="/K.java" changelist="3df49d78-3302-456f-be83-95ce6ce46925" time="1382301507161" ignored="false" />
+    <file path="/K.java" changelist="3df49d78-3302-456f-be83-95ce6ce46925" time="1384469010435" ignored="false" />
     <file path="/File Header.txt.ft" changelist="3df49d78-3302-456f-be83-95ce6ce46925" time="1382271158209" ignored="false" />
     <file path="/Catch Statement Body.txt.ft" changelist="3df49d78-3302-456f-be83-95ce6ce46925" time="1382271175457" ignored="false" />
     <file path="/Implemented Method Body.txt.ft" changelist="3df49d78-3302-456f-be83-95ce6ce46925" time="1382271197155" ignored="false" />
     <file path="/Overridden Method Body.txt.ft" changelist="3df49d78-3302-456f-be83-95ce6ce46925" time="1382271216505" ignored="false" />
-    <file path="/Main.java" changelist="3df49d78-3302-456f-be83-95ce6ce46925" time="1382272006426" ignored="false" />
+    <file path="/Main.java" changelist="3df49d78-3302-456f-be83-95ce6ce46925" time="1385468306550" ignored="false" />
+    <file path="/Properties.java" changelist="3df49d78-3302-456f-be83-95ce6ce46925" time="1385464774762" ignored="false" />
+    <file path="/Monitor.java" changelist="3df49d78-3302-456f-be83-95ce6ce46925" time="1385467459775" ignored="false" />
+    <file path="/Resource.java" changelist="3df49d78-3302-456f-be83-95ce6ce46925" time="1384346174825" ignored="false" />
+    <file path="/ThreadA.java" changelist="3df49d78-3302-456f-be83-95ce6ce46925" time="1384346548483" ignored="false" />
+    <file path="/RunnableA.java" changelist="3df49d78-3302-456f-be83-95ce6ce46925" time="1384346550322" ignored="false" />
+    <file path="/RunnableB.java" changelist="3df49d78-3302-456f-be83-95ce6ce46925" time="1384346602836" ignored="false" />
+    <file path="/RunnableAB.java" changelist="3df49d78-3302-456f-be83-95ce6ce46925" time="1384346722832" ignored="false" />
+    <file path="$PROJECT_DIR$/lab2/src/buffers/Main.java" changelist="3df49d78-3302-456f-be83-95ce6ce46925" time="1384468673686" ignored="false" />
+    <file path="/a.dummy" changelist="3df49d78-3302-456f-be83-95ce6ce46925" time="1385468270093" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +47,7 @@
   </component>
   <component name="DebuggerManager">
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -85,46 +93,77 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Buffer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab3/src/producerconsumer/buffersizen/Buffer.java">
+      <file leaf-file-name="Monitor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab4/src/Monitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="5" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0">
+            <state line="61" column="63" selection-start="1754" selection-end="1754" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Properties.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab5/src/zad432/Properties.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="22" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="K.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab3/src/producerconsumer/buffersize1/K.java">
+      <file leaf-file-name="Monitor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab5/src/zad432/Monitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="12" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="16" column="36" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="P.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab3/src/producerconsumer/buffersize1/P.java">
+        <entry file="file://$PROJECT_DIR$/lab5/src/zad432/P.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="61" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0">
+            <state line="21" column="37" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lab3/src/producerconsumer/buffersize1/Main.java">
+        <entry file="file://$PROJECT_DIR$/lab5/src/zad432/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="30" selection-start="243" selection-end="243" vertical-scroll-proportion="0.2781186">
+            <state line="11" column="35" selection-start="223" selection-end="223" vertical-scroll-proportion="0.3808554">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Buffer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab3/src/producerconsumer/buffersize1/Buffer.java">
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab4/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="61" selection-end="737" vertical-scroll-proportion="0.0">
+            <state line="4" column="40" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="P.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab4/src/P.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="67" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="K.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab4/src/K.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="0" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -138,6 +177,7 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitLogSettings">
@@ -148,22 +188,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lab1/src/MyInteger.java" />
-        <option value="$PROJECT_DIR$/lab2/src/semaphores/BinarySemaphore.java" />
-        <option value="$PROJECT_DIR$/lab2/src/main/Main.java" />
-        <option value="$PROJECT_DIR$/lab2/src/runnables/P.java" />
-        <option value="$PROJECT_DIR$/lab2/src/runnables/K.java" />
-        <option value="$PROJECT_DIR$/lab2/src/runnables/S.java" />
-        <option value="$PROJECT_DIR$/lab2/src/buffers/Buffer.java" />
-        <option value="$PROJECT_DIR$/lab3/src/producerconsumer/Buffer.java" />
-        <option value="$PROJECT_DIR$/lab3/src/producerconsumer/K.java" />
-        <option value="$PROJECT_DIR$/lab3/src/producerconsumer/P.java" />
-        <option value="$PROJECT_DIR$/lab3/src/producerconsumer/Main.java" />
-        <option value="$PROJECT_DIR$/lab3/src/producerconsumer/buffersize1/Buffer.java" />
-        <option value="$PROJECT_DIR$/lab3/src/producerconsumer/buffersizen/Buffer.java" />
-        <option value="$PROJECT_DIR$/lab3/src/producerconsumer/buffersize1/K.java" />
-        <option value="$PROJECT_DIR$/lab3/src/producerconsumer/buffersize1/P.java" />
-        <option value="$PROJECT_DIR$/lab3/src/producerconsumer/buffersize1/Main.java" />
+        <option value="$PROJECT_DIR$/lab3/src/zad433/Monitor.java" />
+        <option value="$PROJECT_DIR$/lab3/src/zad433/K.java" />
+        <option value="$PROJECT_DIR$/lab3/src/zad433/Main.java" />
+        <option value="$PROJECT_DIR$/lab3/src/zad433/P.java" />
+        <option value="$PROJECT_DIR$/lab3/src/zad433/Buffer.java" />
+        <option value="$PROJECT_DIR$/lab4.java" />
+        <option value="$PROJECT_DIR$/lab2/src/buffers/Main.java" />
+        <option value="$PROJECT_DIR$/lab4/src/Buffer.java" />
+        <option value="$PROJECT_DIR$/lab4/src/K.java" />
+        <option value="$PROJECT_DIR$/lab4/src/P.java" />
+        <option value="$PROJECT_DIR$/lab4/src/Main.java" />
+        <option value="$PROJECT_DIR$/lab4/src/Monitor.java" />
+        <option value="$PROJECT_DIR$/lab5/src/zad432/Properties.java" />
+        <option value="$PROJECT_DIR$/lab5/src/zad432/Monitor.java" />
+        <option value="$PROJECT_DIR$/lab5/src/zad432/P.java" />
+        <option value="$PROJECT_DIR$/lab5/src/zad432/Main.java" />
       </list>
     </option>
   </component>
@@ -223,8 +263,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -253,6 +291,74 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="lab5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zad432" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="lab3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -272,45 +378,13 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="producerconsumer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="buffersizen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TW" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TW" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lab3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="producerconsumer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="buffersize1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -336,18 +410,23 @@
       <recent name="buffers" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\kodzenie\TW\lab4\src" />
+      <recent name="E:\kodzenie\TW\lab3\src\producerconsumer\buffersizen" />
       <recent name="E:\kodzenie\TW\lab2\src" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="common" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="main.*" />
+          <option name="PATTERN" value="zad432.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <option name="MAIN_CLASS_NAME" value="zad432.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -356,7 +435,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="lab2" />
+      <module name="lab5" />
       <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -457,8 +536,12 @@
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
     </list>
     <recent_temporary>
-      <list size="1">
+      <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -510,7 +593,35 @@
       <created>1382302694521</created>
       <updated>1382302694521</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="producer-consumer with 1 value buffer">
+      <created>1384212971828</created>
+      <updated>1384212971828</updated>
+    </task>
+    <task id="LOCAL-00007" summary="buffer array replaced by one variable">
+      <created>1384215970259</created>
+      <updated>1384215970259</updated>
+    </task>
+    <task id="LOCAL-00008" summary="producer-consumer with cyclic buffer">
+      <created>1384219044230</created>
+      <updated>1384219044230</updated>
+    </task>
+    <task id="LOCAL-00009" summary="4.31">
+      <created>1384351046257</created>
+      <updated>1384351046257</updated>
+    </task>
+    <task id="LOCAL-00010" summary="433">
+      <created>1384376252060</created>
+      <updated>1384376252060</updated>
+    </task>
+    <task id="LOCAL-00011" summary="new module lab4&#10;">
+      <created>1384466980596</created>
+      <updated>1384466980596</updated>
+    </task>
+    <task id="LOCAL-00012" summary="asynchronous monitor for lab4&#10;">
+      <created>1384469748373</created>
+      <updated>1384469748373</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -537,17 +648,18 @@
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29160935" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28885832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39760637" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29160935" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28885832" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925338" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32737276" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925338" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -555,14 +667,13 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31402832" sideWeight="0.70839065" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16151866" sideWeight="0.7111417" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39917696" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32737276" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="-1188" y="92" width="1096" height="776" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="549" y="371" width="501" height="235" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -607,7 +718,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="producer-consumer with 1 value buffer" />
+    <option name="LAST_COMMIT_MESSAGE" value="asynchronous monitor for lab4&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -627,6 +738,12 @@
     <MESSAGE value="iml" />
     <MESSAGE value="all with println logging&#10;" />
     <MESSAGE value="producer-consumer with 1 value buffer" />
+    <MESSAGE value="buffer array replaced by one variable" />
+    <MESSAGE value="producer-consumer with cyclic buffer" />
+    <MESSAGE value="4.31" />
+    <MESSAGE value="433" />
+    <MESSAGE value="new module lab4&#10;" />
+    <MESSAGE value="asynchronous monitor for lab4&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -636,102 +753,102 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
+    <entry file="file://$PROJECT_DIR$/lab3/src/zad433/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="5" selection-start="4" selection-end="5" vertical-scroll-proportion="-0.0" />
+        <state line="9" column="41" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+    <entry file="file://$PROJECT_DIR$/lab3/src/zad433/Monitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="47" column="5" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/lab3/src/zad433/Properties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="29" selection-start="2516" selection-end="2519" vertical-scroll-proportion="0.33254716" />
+        <state line="5" column="29" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab2/lab2.iml">
+    <entry file="file://$PROJECT_DIR$/lab3/src/zad431/RunnableA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="4" column="13" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/lab3/src/zad433/P.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="4" column="28" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TW.iml">
+    <entry file="file://$PROJECT_DIR$/lab3/src/zad433/Buffer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab2/src/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="23" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab2/src/runnables/P.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="25" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab2/src/runnables/K.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="21" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab2/src/runnables/S.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="24" selection-start="945" selection-end="945" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab2/src/buffers/Buffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="40" selection-start="894" selection-end="894" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab3/src/producerconsumer/buffersize1/Buffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="61" selection-end="737" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab3/src/producerconsumer/buffersizen/Buffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="5" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab3/src/producerconsumer/buffersize1/K.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="12" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="23" column="87" selection-start="616" selection-end="616" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lab3/src/producerconsumer/buffersize1/P.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="61" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0">
+        <state line="11" column="30" selection-start="0" selection-end="467" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab4/src/Buffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="30" selection-start="132" selection-end="132" vertical-scroll-proportion="0.1734694" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab4/src/K.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab3/src/producerconsumer/buffersize1/Main.java">
+    <entry file="file://$PROJECT_DIR$/lab4/src/P.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="30" selection-start="243" selection-end="243" vertical-scroll-proportion="0.2781186">
+        <state line="23" column="67" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab4/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="40" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab5/src/zad432/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="22" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab4/src/Monitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="63" selection-start="1754" selection-end="1754" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab5/src/zad432/Monitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="36" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab5/src/zad432/P.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="37" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab5/src/zad432/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="35" selection-start="223" selection-end="223" vertical-scroll-proportion="0.3808554">
           <folding />
         </state>
       </provider>
