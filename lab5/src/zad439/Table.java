@@ -26,7 +26,6 @@ public class Table {
             while(peopleAtTable>0)
                 waitingForTable.await();
             peopleAtTable+=2;
-//            System.out.println("**sitting "+j);
             partnerIsWaiting[j]=false;
             waitingForPair[j].signal();
             tableLock.unlock();
@@ -34,7 +33,6 @@ public class Table {
             partnerIsWaiting[j]=true;
             waitingForPair[j].await();
             tableLock.lock();
-//            System.out.println("**sitting "+j);
             tableLock.unlock();
         }
         pairLock[j].unlock();
@@ -43,7 +41,6 @@ public class Table {
     public void leaveTable(){
         tableLock.lock();
         peopleAtTable--;
-//        System.out.println("**leaving ");
         if(peopleAtTable==0){
             System.out.println("------------");
             waitingForTable.signal();
