@@ -20,13 +20,13 @@ public class Monitor {
         waitingDemands.add(currentThreadCondition);
         while(waitingDemands.peek()!=currentThreadCondition)
             currentThreadCondition.await();
-        waitingDemands.poll();
         changePosition(demand.cylinder);
         lock.unlock();
     }
 
     public void release() {
         lock.lock();
+        waitingDemands.poll();
         if(!waitingDemands.isEmpty())
             waitingDemands.peek().signal();
         lock.unlock();
