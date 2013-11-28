@@ -1,4 +1,4 @@
-package zad4313;
+package zad4313.ver1;
 
 public class P implements Runnable{
     private Monitor monitor;
@@ -12,7 +12,7 @@ public class P implements Runnable{
     public void run() {
         while(true)
             try {
-                int randCylinder =(int) Math.floor(Math.random()*Properties.C);
+                int randCylinder =(int) Math.floor(Math.random()* Properties.C);
                 monitor.demandNewPosition(new Demand(randCylinder));
                 Thread.yield();
                 monitor.release();

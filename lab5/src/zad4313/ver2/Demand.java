@@ -1,4 +1,4 @@
-package zad4313;
+package zad4313.ver2;
 
 public class Demand {
     public Integer cylinder;
