@@ -12,7 +12,11 @@ public class Monitor {
     private Lock lockFree = new ReentrantLock();
     private Lock lockFull = new ReentrantLock();
     private Condition produceCond = lockFree.newCondition();
+    private Condition firstProducerCond = lockFree.newCondition();
     private Condition consumeCond = lockFull.newCondition();
+    private Condition firstConsumerCond = lockFull.newCondition();
+    private boolean someConsumerIsWaiting =false;
+    private boolean someProducerIsWaiting =false;
 
     public Monitor(int bufferSize){
         for(int i=0;i<bufferSize;i++)
@@ -23,8 +27,13 @@ public class Monitor {
         int[] toReturn= new int[n];
         lockFree.lock();
         try {
-            while(free.size()<n)
+            while(someProducerIsWaiting)
                 produceCond.await();
+            someProducerIsWaiting=true;
+            while(free.size()<n)
+                firstProducerCond.await();
+            someProducerIsWaiting=false;
+            produceCond.signal();
             for(int i=0;i<n;i++)
                 toReturn[i]=free.remove(free.size()-1);
         } finally {
@@ -38,7 +47,7 @@ public class Monitor {
         try {
             for(int i:indexes)
                 full.add(i);
-            consumeCond.signal();
+            firstConsumerCond.signal();
         } finally {
             lockFull.unlock();
         }
@@ -48,8 +57,13 @@ public class Monitor {
         int[] toReturn=new int[n];
         lockFull.lock();
         try {
-            while(full.size()<n)
+            while(someConsumerIsWaiting)
                 consumeCond.await();
+            someConsumerIsWaiting=true;
+            while(full.size()<n)
+                firstConsumerCond.await();
+            someConsumerIsWaiting=false;
+            consumeCond.signal();
             for(int i=0;i<n;i++)
                 toReturn[i]=full.remove(full.size()-1);
         } finally {
@@ -63,7 +77,7 @@ public class Monitor {
         try {
             for(int i:indexes)
                 free.add(i);
-            produceCond.signal();
+            firstProducerCond.signal();
         } finally {
             lockFree.unlock();
         }
