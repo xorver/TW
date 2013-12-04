@@ -13,14 +13,14 @@ public class K implements Runnable {
     public void run() {
         try {
             while (true){
-                int[] forConsumtion = m.lockConsumption((int)Math.floor(Math.random()*b.SIZE));
+                int[] forConsumption = m.lockConsumption((int)Math.floor(Math.random()*b.SIZE));
                 try {
                     System.out.println("Consuming values from: ");
-                    for(int i:forConsumtion)
+                    for(int i:forConsumption)
                         System.out.print(i+" ");
                 System.out.println();
                 } finally {
-                    m.unlockConsumption(forConsumtion);
+                    m.unlockConsumption(forConsumption);
                 }
 
             }
