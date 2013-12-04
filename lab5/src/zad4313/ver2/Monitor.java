@@ -8,14 +8,12 @@ import java.util.concurrent.locks.ReentrantLock;
 public class Monitor {
     private Lock lock = new ReentrantLock();
     private TreeSet<WaitingDemand> waitingDemands = new TreeSet<>();
-    private boolean busy;
     private int currentPosition=0;
     private boolean goingUp=true;
     private WaitingDemand currentDemand;
     private Monitor.WaitingDemand letInOnlyThisDemand;
 
     private void changePosition(WaitingDemand nextDemand){
-        waitingDemands.remove(nextDemand);
         if(nextDemand.demand.cylinder!=currentPosition)
             goingUp = nextDemand.demand.cylinder >=currentPosition;
         currentPosition = nextDemand.demand.cylinder;
@@ -27,28 +25,25 @@ public class Monitor {
         lock.lock();
         WaitingDemand waitingDemand = new WaitingDemand(lock.newCondition(), demand);
         waitingDemands.add(waitingDemand);
-        while(busy && letInOnlyThisDemand!=waitingDemand)
+        while(waitingDemands.size()!=1 && letInOnlyThisDemand!=waitingDemand)
             waitingDemand.condition.await();
-        busy=true;
         changePosition(waitingDemand);
         lock.unlock();
     }
 
     public void release() {
         lock.lock();
-        if(waitingDemands.isEmpty()){
-            busy=false;
-            letInOnlyThisDemand=null;
-        }
-        else if((goingUp  && waitingDemands.higher(currentDemand)!=null) ||
-                (!goingUp && waitingDemands.lower(currentDemand)==null)){
-            letInOnlyThisDemand =waitingDemands.higher(currentDemand);
-            letInOnlyThisDemand.condition.signal();
-        }
-        else{
-            letInOnlyThisDemand = waitingDemands.lower(currentDemand);
-            letInOnlyThisDemand.condition.signal();
-        }
+        waitingDemands.remove(currentDemand);
+        if(!waitingDemands.isEmpty())
+            if((goingUp  && waitingDemands.higher(currentDemand)!=null) ||
+                    (!goingUp && waitingDemands.lower(currentDemand)==null)){
+                letInOnlyThisDemand = waitingDemands.higher(currentDemand);
+                letInOnlyThisDemand.condition.signal();
+            }
+            else{
+                letInOnlyThisDemand = waitingDemands.lower(currentDemand);
+                letInOnlyThisDemand.condition.signal();
+            }
         lock.unlock();
     }
 
