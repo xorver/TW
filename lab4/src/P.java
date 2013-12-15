@@ -1,3 +1,5 @@
+import java.util.List;
+
 public class P implements Runnable {
 
     private Buffer b;
@@ -13,7 +15,7 @@ public class P implements Runnable {
     public void run() {
         try {
             while (true){
-                int[] forProduction = m.lockProduction((int)Math.floor(Math.random()*b.SIZE));
+                List<Integer> forProduction = m.lockProduction((int)Math.floor(Math.random()*b.SIZE));
                 try {
                     System.out.println("Producing values on: ");
                     for(int i:forProduction)

@@ -1,3 +1,5 @@
+import java.util.List;
+
 public class K implements Runnable {
 
     private Buffer b;
@@ -13,7 +15,7 @@ public class K implements Runnable {
     public void run() {
         try {
             while (true){
-                int[] forConsumption = m.lockConsumption((int)Math.floor(Math.random()*b.SIZE));
+                List<Integer> forConsumption = m.lockConsumption((int)Math.floor(Math.random()*b.SIZE));
                 try {
                     System.out.println("Consuming values from: ");
                     for(int i:forConsumption)

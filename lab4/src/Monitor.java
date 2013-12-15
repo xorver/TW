@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
@@ -7,8 +7,8 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class Monitor {
 
-    private List<Integer> free=new ArrayList<>();
-    private List<Integer> full=new ArrayList<>();
+    private LinkedList<Integer> free=new LinkedList<>();
+    private LinkedList<Integer> full=new LinkedList<>();
     private Lock lockFree = new ReentrantLock();
     private Lock lockFull = new ReentrantLock();
     private Condition produceCond = lockFree.newCondition();
@@ -23,8 +23,8 @@ public class Monitor {
             free.add(i);
     }
 
-    public int[] lockProduction(int n) throws InterruptedException {
-        int[] toReturn= new int[n];
+    public List<Integer> lockProduction(int n) throws InterruptedException {
+        List<Integer> toReturn;
         lockFree.lock();
         try {
             while(someProducerIsWaiting)
@@ -34,27 +34,26 @@ public class Monitor {
                 firstProducerCond.await();
             someProducerIsWaiting=false;
             produceCond.signal();
-            for(int i=0;i<n;i++)
-                toReturn[i]=free.remove(free.size()-1);
+            toReturn=new LinkedList<>(free.subList(0,n));
+            free.subList(0,n).clear();
         } finally {
             lockFree.unlock();
         }
         return toReturn;
     }
 
-    public void unlockProduction(int[] indexes){
+    public void unlockProduction(List<Integer> indexes){
         lockFull.lock();
         try {
-            for(int i:indexes)
-                full.add(i);
+            full.addAll(indexes);
             firstConsumerCond.signal();
         } finally {
             lockFull.unlock();
         }
     }
 
-    public int[] lockConsumption(int n) throws InterruptedException {
-        int[] toReturn=new int[n];
+    public List<Integer> lockConsumption(int n) throws InterruptedException {
+        List<Integer> toReturn;
         lockFull.lock();
         try {
             while(someConsumerIsWaiting)
@@ -64,19 +63,18 @@ public class Monitor {
                 firstConsumerCond.await();
             someConsumerIsWaiting=false;
             consumeCond.signal();
-            for(int i=0;i<n;i++)
-                toReturn[i]=full.remove(full.size()-1);
+            toReturn=new LinkedList<>(full.subList(0,n));
+            full.subList(0,n).clear();
         } finally {
             lockFull.unlock();
         }
         return toReturn;
     }
 
-    public void unlockConsumption(int[] indexes){
+    public void unlockConsumption(List<Integer> indexes){
         lockFree.lock();
         try {
-            for(int i:indexes)
-                free.add(i);
+            free.addAll(indexes);
             firstProducerCond.signal();
         } finally {
             lockFree.unlock();
