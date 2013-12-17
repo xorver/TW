@@ -18,8 +18,8 @@ public class Monitor {
     private boolean someConsumerIsWaiting =false;
     private boolean someProducerIsWaiting =false;
 
-    public Monitor(int bufferSize){
-        for(int i=0;i<bufferSize;i++)
+    public Monitor(){
+        for(int i=0;i<2*Properties.HALF_BUFFER_SIZE;i++)
             free.add(i);
     }
 

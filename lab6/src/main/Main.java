@@ -1,19 +1,26 @@
+package main;
+
+import activeobject.Proxy;
+import properties.Properties;
+import threads.Consumer;
+import threads.Producer;
+
 public class Main {
 
     public static void main(String[] args) throws InterruptedException {
-        System.out.println("result: "+doTest());
+       System.out.println("result: "+doTest());
     }
 
     public static int doTest() throws InterruptedException {
-        Monitor monitor = new Monitor();
+        Proxy proxy = new Proxy();
         Consumer[] consumers = new Consumer[Properties.CONSUMERS];
         for(int i=0;i< Properties.CONSUMERS;i++){
-            consumers[i]=new Consumer(monitor);
+            consumers[i]=new Consumer(proxy);
             new Thread(consumers[i]).start();
         }
         Producer[] producers = new Producer[Properties.PRODUCERS];
         for(int i=0;i< Properties.PRODUCERS;i++){
-            producers[i]=new Producer(monitor);
+            producers[i]=new Producer(proxy);
             new Thread(producers[i]).start();
         }
 
