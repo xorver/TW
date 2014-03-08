@@ -6,22 +6,22 @@ import activeobject.Servant;
 
 import java.util.List;
 
-public class UnlockConsumptionMethod extends MethodRequest {
+public class ProductionMethod extends MethodRequest {
     private List<Integer> argument;
 
-    public UnlockConsumptionMethod(Servant servant, Future future, List<Integer> argument) {
-        super(servant, future,RequestType.unlock);
+    public ProductionMethod(Servant servant, Future future, List<Integer> argument) {
+        super(servant, future,RequestType.lockProduction);
         this.argument = argument;
     }
 
     @Override
     public boolean guard() {
-        return true;
+        return  argument.size() <= servant.getNumberOfFreeElements();
     }
 
     @Override
     public void call() {
-        servant.unlockConsumption(argument);
+        servant.produce(argument);
         future.setResult(null);
         done=true;
     }

@@ -4,6 +4,7 @@ import activeobject.Future;
 import activeobject.Proxy;
 import properties.Properties;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Producer implements Runnable {
@@ -21,16 +22,26 @@ public class Producer implements Runnable {
     public void run() {
         try {
             while(active){
-                int n=(int)Math.floor(Math.random()* Properties.HALF_BUFFER_SIZE);
-                Future futureIndexes = proxy.lockProduction(n);
+                //Prepare-values-------------------
+                int n=(int)Math.ceil(Math.random()*Properties.HALF_BUFFER_SIZE);
+                List<Integer> argument = new ArrayList<>(n);
+                for(int i=0;i<n;i++)
+                    argument.add(i);
                 for(int i=0;i<Properties.PRODUCER_OPERATIONS;i++)
                     Math.random();
-                List<Integer> indexes = futureIndexes.get();
-//                System.out.println("Producing values on: ");
-//                for(int i:indexes)
+                //---------------------------------
+
+                //Send-values-to-buffer------------
+                Future future=proxy.produce(argument);
+                future.get();
+                //---------------------------------
+
+                //Say-what-are-you-doing-----------
+//                System.out.println("Producing values: ");
+//                for(int i:argument)
 //                    System.out.print(i+" ");
 //                System.out.println();
-                proxy.unlockProduction(indexes).get();
+                //---------------------------------
                 operations++;
             }
         } catch (InterruptedException e) {

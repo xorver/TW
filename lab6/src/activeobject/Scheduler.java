@@ -2,60 +2,43 @@ package activeobject;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class Scheduler implements Runnable {
-    BlockingQueue<MethodRequest> lockRequests=new LinkedBlockingQueue<>();
-    BlockingQueue<MethodRequest> unlockRequests=new LinkedBlockingQueue<>();
-    BlockingQueue<MethodRequest> lockConsumptionRequests=new LinkedBlockingQueue<>();
-    BlockingQueue<MethodRequest> lockProductionRequests=new LinkedBlockingQueue<>();
+    private BlockingQueue<MethodRequest> consumptionRequests =new LinkedBlockingQueue<>();
+    private BlockingQueue<MethodRequest> productionRequests =new LinkedBlockingQueue<>();
+    private boolean productionPhase=true;
 
-    public void enqueueLockProductionRequest(MethodRequest methodRequest){
-        lockRequests.add(methodRequest);
-        lockProductionRequests.add(methodRequest);
+    public void enqueueProductionRequest(MethodRequest methodRequest){
+        productionRequests.add(methodRequest);
     }
-    public void enqueueLockConsumptionRequest(MethodRequest methodRequest){
-        lockRequests.add(methodRequest);
-        lockConsumptionRequests.add(methodRequest);
-    }
-    public void enqueueUnlockRequest(MethodRequest methodRequest){
-        unlockRequests.add(methodRequest);
+    public void enqueueConsumptionRequest(MethodRequest methodRequest){
+        consumptionRequests.add(methodRequest);
     }
 
     @SuppressWarnings("InfiniteLoopStatement")
     @Override
     public void run() {
-        try {
-            while(true){
-                while(!unlockRequests.isEmpty())
-                    unlockRequests.take().call();
-
-                MethodRequest currentRequest = lockRequests.take();
-                if(!currentRequest.isDone()) {
-                    while(!currentRequest.guard()){
-                        MethodRequest additionalRequest;
-                        if(currentRequest.getRequestType()== MethodRequest.RequestType.lockConsumption)
-                            additionalRequest=lockProductionRequests.take();
-                        else
-                            additionalRequest=lockConsumptionRequests.take();
-                        if(!additionalRequest.isDone()){
-                            while(true){
-                                if(currentRequest.guard()){
-                                    currentRequest.call();
-                                    currentRequest=additionalRequest;
-                                    break;
-                                } else if(additionalRequest.guard()){
-                                    additionalRequest.call();
-                                    break;
-                                }
-                                unlockRequests.take().call();
-                            }
-                        }
-                    }
-                    currentRequest.call();
+        while(true)
+            try {
+                MethodRequest currentRequest;
+                if(productionPhase){
+                    currentRequest=productionRequests.take();
+                    while(!currentRequest.guard())
+                        consumptionRequests.take().call();
                 }
+                else {
+                    currentRequest=consumptionRequests.take();
+                    while(!currentRequest.guard())
+                        productionRequests.take().call();
+                }
+                currentRequest.call();
+                productionPhase=!productionPhase;
+
+            } catch (InterruptedException e) {
+                e.printStackTrace();
             }
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
     }
 }

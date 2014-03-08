@@ -24,7 +24,7 @@ public class Main {
             new Thread(producers[i]).start();
         }
 
-        Thread.sleep(Properties.SLEEP_TIME * 1000);
+        Thread.sleep(Properties.SLEEP_TIME_IN_SECONDS * 1000);
 
         int operations=0;
         for(Consumer c : consumers){

@@ -12,7 +12,7 @@ public class Future {
         return result;
     }
 
-    public boolean isDone(){
+    public synchronized boolean isDone(){
         return done;
     }
 

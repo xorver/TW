@@ -4,10 +4,10 @@ import activeobject.Future;
 import activeobject.MethodRequest;
 import activeobject.Servant;
 
-public class LockConsumptionMethod extends MethodRequest {
+public class ConsumptionMethod extends MethodRequest {
     private int argument;
 
-    public LockConsumptionMethod(Servant servant, Future future, int argument) {
+    public ConsumptionMethod(Servant servant, Future future, int argument) {
         super(servant, future, RequestType.lockConsumption);
         this.argument = argument;
     }
@@ -19,7 +19,7 @@ public class LockConsumptionMethod extends MethodRequest {
 
     @Override
     public void call() {
-        future.setResult(servant.lockConsumption(argument));
+        future.setResult(servant.consume(argument));
         done=true;
     }
 }

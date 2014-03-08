@@ -21,16 +21,25 @@ public class Consumer implements Runnable {
     public void run() {
         try {
             while(active){
-                int n=(int)Math.floor(Math.random()* Properties.HALF_BUFFER_SIZE);
-                Future futureIndexes = proxy.lockConsumption(n);
-                for(int i=0;i<Properties.CONSUMER_OPERATIONS;i++)
-                    Math.random();
-                List<Integer> indexes = futureIndexes.get();
-//                System.out.println("Consuming values from: ");
-//                for(int i:indexes)
+
+                //Ask-for-values---------------------
+                int n=(int)Math.ceil(Math.random()* Properties.HALF_BUFFER_SIZE);
+                Future futureValues = proxy.consume(n);
+                List<Integer> values = futureValues.get();
+                //-----------------------------------
+
+                //Say-what-are-you-doing-------------
+//                System.out.println("Consuming values: ");
+//                for(int i:values)
 //                    System.out.print(i+" ");
 //                System.out.println();
-                proxy.unlockConsumption(indexes).get();
+                //-----------------------------------
+
+                //Process-values----------------------
+                for(int i=0;i<Properties.CONSUMER_OPERATIONS;i++)
+                    Math.random();
+                //------------------------------------
+
                 operations++;
             }
         } catch (InterruptedException e) {
